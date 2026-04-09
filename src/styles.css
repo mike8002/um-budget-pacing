@@ -304,3 +304,38 @@ th:hover .sort-icon { opacity: 0.6; }
   margin-top: 8px; display: flex; justify-content: space-between;
   font-size: 10px; color: var(--g500); align-items: center;
 }
+
+/* ── Platform connections ── */
+.platform-connections {
+  border: 1px solid var(--g200); border-radius: 8px; padding: 16px;
+  background: white;
+}
+.platform-list { display: flex; flex-direction: column; gap: 6px; }
+.platform-item {
+  display: flex; align-items: center; gap: 10px; padding: 6px 8px;
+  border-radius: 6px; background: var(--g50);
+}
+.platform-icon {
+  width: 24px; height: 24px; border-radius: 5px; display: flex;
+  align-items: center; justify-content: center; font-weight: 700;
+  font-size: 10px; flex-shrink: 0;
+}
+.platform-name { flex: 1; font-size: 12px; font-weight: 500; }
+.platform-status {
+  font-size: 10px; color: var(--g400); font-weight: 500;
+  padding: 2px 8px; background: var(--g100); border-radius: 3px;
+}
+.platform-footer { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--g200); }
+
+/* ── Manual upload section ── */
+.manual-section {
+  border: 1px solid var(--g200); border-radius: 8px; margin-bottom: 16px;
+  overflow: hidden;
+}
+.manual-header {
+  padding: 12px 16px; display: flex; justify-content: space-between;
+  align-items: center; cursor: pointer; background: var(--g50);
+}
+.manual-header:hover { background: var(--g100); }
+.manual-body { padding: 16px; }
+.upload-zone-sm { padding: 20px 16px !important; }
