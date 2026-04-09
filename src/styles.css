@@ -44,10 +44,10 @@ table { border-collapse: collapse; width: 100%; }
 }
 .fade-in { animation: fadeUp 0.3s ease forwards; }
 
-/* â”€â”€ App shell â”€â”€ */
+/* ── App shell ── */
 .app { min-height: 100vh; }
 
-/* â”€â”€ Client selector â”€â”€ */
+/* ── Client selector ── */
 .client-select {
   display: flex; flex-direction: column; align-items: center;
   justify-content: center; min-height: 100vh; padding: 40px;
@@ -99,7 +99,7 @@ table { border-collapse: collapse; width: 100%; }
 }
 .add-client-actions { display: flex; gap: 6px; margin-top: 4px; }
 
-/* â”€â”€ Buttons â”€â”€ */
+/* ── Buttons ── */
 .btn-primary {
   padding: 7px 18px; border-radius: 5px; border: none;
   background: var(--red); color: white; font-weight: 600; font-size: 12px;
@@ -129,7 +129,7 @@ table { border-collapse: collapse; width: 100%; }
   border: none; background: none; color: var(--g400); cursor: pointer; font-size: 14px;
 }
 
-/* â”€â”€ Header â”€â”€ */
+/* ── Header ── */
 .header {
   border-bottom: 1px solid var(--g200); padding: 0 20px; height: 50px;
   display: flex; align-items: center; justify-content: space-between;
@@ -167,10 +167,10 @@ table { border-collapse: collapse; width: 100%; }
   padding: 3px 8px; border-radius: 4px;
 }
 
-/* â”€â”€ Main â”€â”€ */
+/* ── Main ── */
 .main { padding: 18px 20px; max-width: 1400px; margin: 0 auto; }
 
-/* â”€â”€ Upload â”€â”€ */
+/* ── Upload ── */
 .upload-view { max-width: 680px; margin: 0 auto; }
 .upload-view h2 { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
 .desc { color: var(--g600); font-size: 13px; margin-bottom: 20px; }
@@ -197,7 +197,7 @@ table { border-collapse: collapse; width: 100%; }
 }
 .snapshot.latest { border-color: var(--red); color: var(--red); }
 
-/* â”€â”€ Taxonomy â”€â”€ */
+/* ── Taxonomy ── */
 .tax-section {
   background: white; border: 1px solid var(--g200); border-radius: 8px; padding: 18px;
 }
@@ -226,20 +226,20 @@ table { border-collapse: collapse; width: 100%; }
 }
 .empty-text { font-size: 12px; color: var(--g500); font-style: italic; }
 
-/* â”€â”€ Empty state â”€â”€ */
+/* ── Empty state ── */
 .empty-state { text-align: center; padding: 80px 0; }
 .empty-state h2 { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
 .empty-state p { color: var(--g500); font-size: 13px; margin-bottom: 18px; }
 .empty-actions { display: flex; gap: 8px; justify-content: center; }
 
-/* â”€â”€ Summary â”€â”€ */
+/* ── Summary ── */
 .summary-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; margin-bottom: 14px; }
 .summary-card { padding: 12px 14px; border-radius: 6px; border: 1px solid var(--g200); }
 .summary-label { font-size: 9px; font-weight: 700; color: var(--g500); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
 .summary-value { font-size: 20px; font-weight: 700; line-height: 1; }
 .summary-sub { font-size: 10px; color: var(--g500); margin-top: 2px; }
 
-/* â”€â”€ Filters â”€â”€ */
+/* ── Filters ── */
 .filters {
   display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
   margin-bottom: 12px; padding: 8px 12px; background: var(--g50); border-radius: 6px;
@@ -263,7 +263,7 @@ table { border-collapse: collapse; width: 100%; }
   border: 1.5px solid var(--red); background: var(--red-faint); color: var(--red);
 }
 
-/* â”€â”€ Table â”€â”€ */
+/* ── Table ── */
 .table-wrap { border: 1px solid var(--g200); border-radius: 6px; overflow: hidden; }
 .table-scroll { overflow-x: auto; max-height: calc(100vh - 280px); }
 
@@ -283,14 +283,14 @@ th:hover .sort-icon { opacity: 0.6; }
 
 .empty-row { padding: 30px !important; text-align: center; color: var(--g500); font-size: 12px; }
 
-/* â”€â”€ Badge â”€â”€ */
+/* ── Badge ── */
 .badge {
   display: inline-flex; align-items: center; gap: 4px;
   padding: 3px 9px; border-radius: 4px; font-size: 11px;
   font-weight: 600; white-space: nowrap;
 }
 
-/* â”€â”€ Spark bar â”€â”€ */
+/* ── Spark bar ── */
 .spark-bar { display: flex; align-items: center; gap: 6px; min-width: 110px; }
 .spark-track { position: relative; flex: 1; height: 5px; background: var(--g200); border-radius: 3px; }
 .spark-marker {
@@ -299,7 +299,7 @@ th:hover .sort-icon { opacity: 0.6; }
 }
 .spark-fill { height: 100%; border-radius: 3px; transition: width 0.4s; }
 
-/* â”€â”€ Table footer â”€â”€ */
+/* ── Table footer ── */
 .table-footer {
   margin-top: 8px; display: flex; justify-content: space-between;
   font-size: 10px; color: var(--g500); align-items: center;
